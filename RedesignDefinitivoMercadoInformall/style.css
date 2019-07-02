@@ -1,0 +1,520 @@
+/*estilo geral*/
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Amatic SC', cursive;
+
+
+}
+body{
+	background-color: bisque !important;
+}
+
+header{
+	padding-top: 2em;
+	display:inline-block;
+
+	width: 100%;
+	height: 17em;
+	background:#EE6A50;
+
+}
+
+h2>a{
+	color:white;
+}
+h2>a:hover{
+	color:white;
+	text-decoration: none;
+}
+h1{
+	margin-top:0;
+}
+h2.logo{
+	color:white;
+	font-weight: bold;
+}
+small{
+	color:white;
+	font-weight: bold;
+	margin-left:10px;
+}
+input.txt-busca{
+	width: 70%;
+	display: inline-block;
+	height: 33px;
+  font-size: 20px;
+  border: none;
+	border-radius: 8px 0px 0px 8px;
+
+}
+button.button-busca{
+	width: 30%;
+  height: 33px;
+	display: inline-block;
+	float: right;
+	border-radius: 0 8px 8px 0;
+	background-color: #FFD700	;
+}
+label.log-txt{
+	color: white;
+	font-size: 20px;
+	margin-left: 4px;
+}
+img.icon{
+	height: 50px;
+	width: 50px;
+	margin-top: 2em;
+}
+img.img-vendedor{
+  height: 100px;
+  width: 100px;
+
+}
+img.lupa-busca{
+	height: 20px;
+	width: 20px;
+}
+a{
+  text-decoration: none;
+}
+h3.slogan{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+.menu-responsivo{
+	background-color: crimson;
+	height: 50px;
+	width: 100%;
+	display: none;
+	padding-top: 10px;
+}
+.lista-responsiva{
+	background-color: crimson;
+	height: 100px;
+	width: 100%;
+	display: none;
+	padding-top: 10px;
+
+}
+ol{
+	margin-left: 50px;
+}
+.text-desc{
+  font-size: 20px;
+}
+.barra-branca{
+	background-color: white;
+	height: 5px;
+	width: 50%;
+	margin-top: 5px;
+	margin-left: 20%;
+
+}
+ #result-box{
+ 	max-width: 1000px;
+ 	width: 50%;
+ 	height:900px;
+ 	min-width: 500px;
+ 	margin-left: 25%;
+ 	background-color:#EE6A50;
+ 	padding-left: 10px;
+ 	padding-top: 10px;
+
+  	
+  }
+ .item-divisor{
+ 	width: 80%;
+ 	color:white;
+ }
+button.action{
+font-size: 20px;
+}
+img.img-item{
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
+div.desc{
+	display: inline-block;
+	color:white;
+}
+div.desc>h1{
+	color:white;
+}
+
+.clickable:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+   transition: 0.5s ease-in-out;
+}
+
+/*tratamento de icones importantes do fontawesome*/
+.far{
+	font-size:4em;
+	color:white;
+	margin-top: 30px;
+}
+/* Estilo  dos signos caminhos */
+.signosCaminhos{
+  display: inline-block;
+  width: 54%;
+  margin-left: 28%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.icones{
+  display: inline-block;
+  text-align: center;
+}
+.icones img{
+  height: 168px;
+  width: 168px;
+}
+.iconesalgado{
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.iconesalgado img{
+    height: 168px;
+    width: 168px;
+}
+.signosCaminhos figcaption{
+  font-size: 40px;
+}
+.icones:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+   transition: 0.5s ease-in-out;
+}
+.iconesalgado:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+   transition: 0.5s ease-in-out;
+
+}
+/*Estilo dos carroseis*/
+ .slider {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 10px;
+      height: 200px;
+      text-align: center;
+    }
+
+    .slick-slide img {
+      width: 200px;
+      height: 200px;
+      text-align: center;
+    }
+
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+      text-align: center;
+    }
+    .center{
+      margin-top:0;
+    }
+    .produto{
+      font-size: 20px;
+      width: 150px;
+      height: 270px;
+    }
+    #salgados img{
+      width: 60px;
+      height: 50px;
+    }
+    #salgados figcaption{
+      margin-right: 40px;
+    }
+    #salgados{
+      width: 80%;
+      margin-left: 10%;
+      background-color: #f4a460;
+      text-align: center;
+      color: white;
+      font-size: 30px; 
+    }
+    #doces{
+      width: 80%;
+      margin-left: 10%;
+      background-color: #FFB6C1;
+      text-align: center;
+      color: white;
+      font-size: 30px; 
+    }
+    #bebidas img{
+      width: 60px;
+      height: 50px;
+    }
+    #bebidas{
+      width: 80%;
+      margin-left: 10%;
+      background-color: #66CDAA;
+      text-align: center;
+      color: white;
+      font-size: 30px; 
+    }
+    #doces img{
+      width: 60px;
+      height: 50px;
+    }
+    .produto p{
+      font-size: 23px;
+      margin:0px !important;
+      display: inline-block;
+    }
+    .preco{
+      font-size: 25px;
+    }
+    .comprar{
+      font-weight: bold;
+      width: 48px;
+      height: 48px;
+      font-size: 20px;
+      border-radius: 5px;
+      background-image: url("img/icones/cestaP.png");
+      color: white;
+      display: block;
+      margin-left: 35%;
+      padding: 2px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      }
+/*Seção de acompanhamentos*/
+    .acompanhamentos{
+      margin-left: 32%;
+    }
+    .acompanhamentos img{
+      width: 140px;
+      height: 140px;
+      display: inline-block;
+      margin-bottom: 15%;
+      margin-top: 13%;
+    }
+    .icAcom:hover{
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      transition: 0.5s ease-in-out;
+    }
+    .mais{
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+
+/*estilo dos modais*/
+
+
+
+/*estilo dos modais*/
+#bg,#bg2{
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,.8);
+    position: fixed; 
+    display: none;
+
+  }
+  #bg:target, #bg2:target{
+    display: block;
+  }
+
+  #bg:target ~ .box, #bg2:target ~ .box{
+    top:150px;
+    transition: all .3s;
+    transition-delay: .2s;
+  }
+  .box{
+    background-color:white;
+    width: 640px;
+    height: 430px;
+    position: absolute;
+    margin-left:-320px;
+    left: 50%; 
+    top:-450px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .box>img{
+    width: 100%;
+    position: absolute;
+
+  }
+  #close{
+    color: white;
+    text-decoration:none;
+    font-size:35px;
+    position: absolute;
+    background: #EE6A50;
+    text-align:center;
+    width: 10%;
+    height:60px;
+    right: 0;
+    font-weight: bold;
+    border-left: 2px solid white;
+
+  }
+  #close:hover{
+    opacity: .6;
+  }
+  .tCesta{
+    width: 90%;
+    background-color:#EE6A50;
+    color:white;
+    position: absolute;
+    height:60px;
+    text-align: center;
+    padding-top: 13px;
+  }
+   div.tCesta>h2{
+  	font-weight: bold;
+  	color:white;
+ 	
+  	display: inline;
+  	}
+
+  div.tCesta>img.icon{
+  	width: 30px;
+  	height: 30px;
+  	margin-top: -20px;
+  }
+  .listaCompras{
+    display: none;
+    width: 500px;
+  }
+  .listaCompras>p{
+    color: black;
+  }
+  /*Conserto para nome cortado no confirmar*/
+  .btn-confirm{
+  	position: absolute;
+  	margin-top: 376px;
+  	font-size: 25px;
+    padding-top: 0px;
+  }
+
+  /*CSS REFERENTE AO BOX DE LOGIN*/
+
+  .conteudoBox{
+    top: 70px;
+  }
+  #login{
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,.8);
+    position: fixed; 
+    display: none;
+
+  }
+  #login:target{
+    display: block;
+  }
+  #login:target ~ .box{
+    top:150px;
+    transition: all .3s;
+    transition-delay: .2s;
+  }
+  .box .iconUserBox{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: 280px;
+    margin-top: 20px;
+  }
+  .box .dados{
+    display: block;
+    margin-left: 230px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 210px;
+    border: solid #2c89a0ff ;
+    border-radius: 5px;
+  }
+  .box label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 190px;
+  }
+  .box .modulo1{
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 190px;
+    margin-top: 10px;
+  }
+  .box .modulo2{
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .iconEntra{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+
+
+
+/*tratamento da responsividade*/
+
+@media screen and (max-width: 1000px) {
+			.icon{
+				display: none;
+			}
+			.log-button,.clickable{
+				display: none;
+			}
+			.menu-responsivo{
+	
+			display: block;
+			}
+			.logo{
+				text-align: center;
+			}
+			
+		}
