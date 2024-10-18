@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE proxy moskit</title>
+</head>
+
+<script>
+
+
+async function callProxy(){
+
+    const url= 'https://api.moskit.empresavila.com.br/lead/proxy'
+    const apikey='3RHKr8ek6dR9pVnzX1v0sK6pjtF21MZXR0DQpkzletNeYPPSoCaZVh9eFWRy6qNX'
+
+    var dealData = {
+    "name": "(TESTE)Teste da Silva - SIMULADOR",
+    "createdBy": {
+        "id": 40953
+    },
+    "stage": {
+        "id": 125412
+    },
+    "status": "OPEN",
+    "contacts": [
+        {
+            "id": 34646105
+        }
+    ],
+    "responsible": {
+        "id": 40953
+    },
+    "entityCustomFields": [
+        {
+            "id": "CF_eZYm9BiKiLpJrD47",
+            "options": [
+                149785
+            ]
+        },
+        {
+            "id": "CF_eZYm9BiKiRjK0D47",
+            "options": [
+                365157
+            ]
+        },
+        {
+            "id": "CF_42AmaJi2iLY8oDjl",
+            "options": [
+                341247
+            ]
+        },
+        {
+            "id": "CF_lXODObiYCBAvWmaN",
+            "textValue": "SERVIÇOS ADICIONAIS (Urna Padrão (700): (Modelo Padrão (700)); Sala de Velório Sempre: (Sala de Velório Sempre (Padrão)); Kit Café: (Kit Café (Padrão)); Transporte: (300Km (Padrão)); Coroa de Flores: (Tamanho P (Padrão))) DEPENDENTES (2 Menores de 75 anos; 1 Maiores de 75 anos) EXTRAS (Missa de Corpo Presente; Cerimonial Musical); TOTAL: R$ 45,90/mês"
+        }
+    ],
+    "dealProducts": [
+        {
+            "quantity": 1,
+            "price": 4190,
+            "initialPrice": 4190,
+            "finalPrice": 4190,
+            "product": {
+                "id": 271415,
+                "name": "SEMPRE DO SEU JEITO",
+                "active": true,
+                "price": 4190
+            }
+        }
+    ],
+    "price": 4190
+}
+
+const response = await fetch(url,{
+    method: "POST",
+    body:JSON.stringify(dealData),
+    headers:{
+        "apikey":apikey
+    }
+})
+
+console.log("enviou os dados para o moskit=========")
+
+}
+
+
+
+</script>
+<body>
+
+
+    <button onclick="callProxy()">call proxy</button>
+    
+</body>
+</html>
