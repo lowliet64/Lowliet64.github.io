@@ -17,14 +17,14 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lowliet64.github.io/" />
+    <meta property="og:url" content="https://mugteca.com.br/" />
     <meta property="og:title" content="Mugteca - Canecas Personalizadas e Criativas" />
     <meta property="og:description" content="Mugteca: Seu universo favorito em canecas personalizadas e criativas. Explore nossa coleção agora!" />
     <meta property="og:image" content="https://lowliet64.github.io/images/mugteca-logo.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://lowliet64.github.io/" />
+    <meta property="twitter:url" content="https://mugteca.com.br/" />
     <meta property="twitter:title" content="Mugteca - Canecas Personalizadas e Criativas" />
     <meta property="twitter:description" content="Mugteca: Seu universo favorito em canecas personalizadas e criativas. Descubra canecas exclusivas que combinam com seu estilo!" />
     <meta property="twitter:image" content="https://lowliet64.github.io/images/mugteca-logo.png" />
@@ -33,26 +33,51 @@
 
     <!-- Lembre-se de adicionar seu sitemap.xml e robots.txt -->
 </head>
+<style>
+    padding{
+        padding:0;
+        margin:0;
+    }
+    body {
+        background-image: url("mugteca-background.jpg");
+        margin: 0;
+        padding: 0;
+        background-size: cover; /* Faz a imagem ocupar todo o fundo */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+        background-position: center center; /* Centraliza a imagem no fundo */
+        height: 100vh; /* Garante que o fundo ocupe 100% da altura da janela */
+    }
+        
+        .center-svg {
+            max-width: 100%; /* Garante que o SVG não ultrapasse o tamanho da tela */
+            max-height: 100%; /* Ajusta o SVG para caber na altura da viewport */
+        }
+        .url-box{
+            background-color:#bf7756 ;
+            padding: 10px;
+            color:white;
+            font-size:21px
+        }
+
+        .aviso{
+            color: white;
+            font-size: 21px;
+        }
+        p{
+            color: white;
+
+        }
+</style>
 <body>
-    <header>
-        <h1 style="text-align: center;">Mugteca - Canecas Personalizadas e Criativas</h1>
-        <h2 style="text-align: center;">Seu universo favorito, com sua bebida favorita</h2>
-    </header>
 
-    <main>
-        <section>
-            <h2>Explore Nossas Canecas Exclusivas</h2>
-            <p>Na <strong>Mugteca</strong>, você encontra canecas personalizadas que trazem à tona o melhor do universo geek, pop e criativo. Seja para um presente ou para você, nossas canecas são perfeitas para qualquer ocasião.</p>
-        </section>
-
-        <section>
-            <h3>Novidades em Breve...</h3>
-            <p>Fique de olho nas novidades que estão chegando na <strong>Mugteca Store</strong>. Nossa coleção exclusiva está prestes a ser lançada!</p>
-        </section>
-    </main>
-
-    <footer>
+    <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;height:100%;">
+  
+        <img src="mugteca-big.svg" alt="Mugteca Logo" class="center-svg">
+        <p class="url-box">mugteca.com.br</p>
+        <p class="aviso">Em breve</p>
         <p>&copy; 2024 Mugteca. Todos os direitos reservados.</p>
-    </footer>
+    </div>
+
+
 </body>
 </html>
